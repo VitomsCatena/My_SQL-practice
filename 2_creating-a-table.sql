@@ -18,3 +18,9 @@ RENAME TABLE friends TO pals;
 
 --to drop a table--
 DROP TABLE pals;
+
+--to alter a table:--
+--e.g adding a column--
+
+ALTER TABLE pals
+ADD phone_number VARCHAR(10);
