@@ -1,7 +1,9 @@
+--below is a table called friends--
+
 CREATE TABLE friends(
-  friend_id,
-  first_name,
-  last_name,
-  money_daily,
-  pay_day,
+  friend_id  INT,
+  first_name  VARCHAR(60),
+  last_name   VARCHAR(60),
+  money_daily DECIMAL (6,2),
+  pay_day DATE
 );
