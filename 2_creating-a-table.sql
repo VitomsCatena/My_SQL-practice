@@ -7,3 +7,5 @@ CREATE TABLE friends(
   money_daily DECIMAL (6,2),
   pay_day DATE
 );
+--to select our table--
+SELECT *FROM friends;
