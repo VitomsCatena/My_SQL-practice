@@ -7,3 +7,9 @@ a database called MyFILE*/
 
 --To m make a file read only--
 ALTER DATABASE myFILE READ ONLY = 1;
+
+--to use a specific database--
+
+ USE myFILE;
+
+/*this will enable you to use the database called myFILE*/
