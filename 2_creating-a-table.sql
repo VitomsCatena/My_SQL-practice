@@ -9,3 +9,6 @@ CREATE TABLE friends(
 );
 --to select our table--
 SELECT *FROM friends;
+
+--to rename a table--
+RENAME TABLE friends TO pals;
