@@ -7,5 +7,8 @@ CREATE TABLE friends(
 );
 --To select all from table--
 SELECT *FROM friends;
-
 /*this will select all the content in my friends table*/
+
+--to select with criteria--
+SELECT * FROM friends
+WHERE last_name = "Njeri"
