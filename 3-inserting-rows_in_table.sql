@@ -14,4 +14,6 @@ VALUES (1, "Samwel" , "Mwas" , 250.65 , "2021-12-02");
 
 --to insert multiple rows at once--
 INSERT INTO friends
-VALUES (1, "Victor" , "Onyango" , 367.9 , "2004-12-1"),(1, "Ivy" , "Njeri" , 267.9 , "2009-12-1"),(),(),()
+VALUES (1, "Victor" , "Onyango" , 367.9 , "2004-12-1"),
+      (1, "Ivy" , "Njeri" , 267.9 , "2009-12-1"),
+      (1, "Victor" , "Onyango" , 367.9 , "2004-12-1"),(1, "Victor" , "Onyango" , 367.9 , "2004-12-1");
