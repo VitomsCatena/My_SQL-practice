@@ -25,5 +25,4 @@ DROP TABLE pals;
 ALTER TABLE pals
 ADD phone_number VARCHAR(10);
 
-
 [MySQL Create Table](https://www.w3schools.com/mysql/mysql_create_table.asp)
