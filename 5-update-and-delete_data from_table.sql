@@ -14,6 +14,8 @@ VALUES (1, "Victor" , "Onyango" , 367.9 , "2004-12-1"),
        (4, "Victoria" , "Onyango" , 267.9 , "2004-12-1");
 /*TABLE END*/
 
+/*to update a table*/
+
 UPDATE friends
 SET money_daily = 600
 WHERE friend_id = 3;
