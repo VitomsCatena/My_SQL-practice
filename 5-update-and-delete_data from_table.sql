@@ -20,4 +20,10 @@ UPDATE friends
 SET money_daily = 600
 WHERE friend_id = 3;
 
-SELECT * friends;
+SELECT * FROM  friends;
+
+--to delete data from a table--
+
+DELETE *FROM friends /* This single line will delete all the content:data in the table*/
+WHERE friend_id = 4;
+SELECT  *FROM friends;
