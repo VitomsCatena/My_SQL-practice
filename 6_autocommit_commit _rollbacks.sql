@@ -12,4 +12,5 @@ VALUES (1, "Victor" , "Onyango" , 367.9 , "2004-12-1"),
        (2, "Ivy" , "Njeri" , 267.9 , "2009-12-1"),
        (3, "Victor" , "Omondi" , 300.9 , "2004-12-1"),
        (4, "Victoria" , "Onyango" , 267.9 , "2004-12-1");
+
 /*TABLE END*/
