@@ -9,7 +9,13 @@ CREATE TABLE friends(
 
 INSERT INTO friends
 VALUES (1, "Victor" , "Onyango" , 367.9 , "2004-12-1"),
-       (1, "Ivy" , "Njeri" , 267.9 , "2009-12-1"),
-       (1, "Victor" , "Omondi" , 300.9 , "2004-12-1"),
-       (1, "Victoria" , "Onyango" , 267.9 , "2004-12-1");
+       (2, "Ivy" , "Njeri" , 267.9 , "2009-12-1"),
+       (3, "Victor" , "Omondi" , 300.9 , "2004-12-1"),
+       (4, "Victoria" , "Onyango" , 267.9 , "2004-12-1");
 /*TABLE END*/
+
+UPDATE friends
+SET money_daily = 600
+WHERE friend_id = 3;
+
+SELECT * friends;
