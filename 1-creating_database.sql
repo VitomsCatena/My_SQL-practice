@@ -12,6 +12,5 @@ ALTER DATABASE myFILE READ ONLY = 1;
 
 /*this will enable you to use the database called myFILE*/
 
-
 --to delete a database--
 DROP myFILE;
